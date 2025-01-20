@@ -4,10 +4,10 @@ The Threat Modeling Manifesto outlines a structured and principled approach to t
 It advocates for a proactive culture where security considerations are integrated into the design and planning phases, rather than being treated as an afterthought. 
 The manifesto highlights the value of people and collaboration, emphasizing that diverse stakeholders and teamwork are more critical than relying solely on tools and processes. 
 It encourages critical thinking and flexibility by promoting the use of tailored questions to uncover threats, rather than adhering strictly to generic checklists.
+The manifesto identifies threat modeling as an iterative process that evolves alongside the system. The Threat Modeling Manifesto underscores the significance of continuous learning and improvement, recognizing that threat modeling is not a one-time task but an ongoing effort aligned with the dynamic nature of systems and threats. 
 
-The manifesto identifies threat modeling as an iterative process that evolves alongside the system. 
-Perfection is not the goal in the initial stages; instead, continuous refinement ensures the model remains relevant and effective. 
-A strong emphasis is placed on actionable outcomes—doing the work of threat modeling, rather than merely discussing its theoretical aspects.
+It emphasizes the importance of empowering individuals to ask insightful questions, challenge assumptions, and adapt methodologies to the unique context of their projects. By fostering a culture of collaboration, critical thinking, and early engagement with security, the manifesto aims to create robust, secure systems that stand resilient against evolving threats.
+
 
 ## Security Hygine
 ### What basic security practices should everyone follow?
