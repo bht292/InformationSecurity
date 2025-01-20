@@ -1,4 +1,4 @@
-# h1 h1 Should Tero wear a helmet?
+# h1 Should Tero wear a helmet?
 ## Threat Modelling
 The Threat Modeling Manifesto outlines a structured and principled approach to threat modeling, emphasizing the importance of building secure systems by addressing potential risks early and effectively. 
 It advocates for a proactive culture where security considerations are integrated into the design and planning phases, rather than being treated as an afterthought. 
