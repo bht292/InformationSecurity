@@ -45,17 +45,17 @@ By Thursday noon the company’s SOC Team (Security Operations Center) spotted u
 
 The final report for the management and executive board included all the steps which took place for the defense of this attack.
 
-Containment
+### Containment
 The affected servers were immediately isolated to stop the attack from spreading further.
 
-Eradication
+### Eradication
 Security teams removed the malware and deleted fake accounts. They also cleared any malicious changes made to the system.
 
-Recovery
+### Recovery
 The company restored clean backups of their systems and improved their network security to prevent similar attacks.
 All the threats of the criminals were ignored and no money has been transfered. The issue had been reported immediately to the cyber crime department of the state.
 
-Detection Improvements
+### Detection Improvements
 New security rules were added to catch hacking tools and unauthorized scripts in the future.
 A great deal of penetration tests were conducted in order to find more gaps.
 More security meetings with the third-party vendors were planned to stay alligned and on track.
