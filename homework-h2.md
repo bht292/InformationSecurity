@@ -1,11 +1,70 @@
 # h2 Kill Chain
 ## Intelligence-Driven Computer Network Defense
+### What is it about
+Intelligence-driven computer network defense represents a proactive approach to cybersecurity, leveraging detailed insights into adversary tactics and strategies. The framework focuses on analyzing adversary campaigns to understand and disrupt their activities effectively. 
+
+By applying intelligence to all aspects of cyber defense, organizations can anticipate, mitigate, and respond to threats with precision.
+
 ### Indicators and the Indicator Life Cycle
+Indicators are artifacts or observables that suggest adversary activity, such as IP addresses, file hashes, or domain names. The life cycle of an indicator consits of the stages creation, deployment, operation, and eventual retirement. 
+Managing this life cycle is critical for ensuring indicators remain relevant and effective. By categorizing indicators by type and source, organizations can prioritize their use and ensure actionable insights.
+
 ### Intrusion Kill Chain
+The Intrusion Kill Chain provides a structured approach to understanding and countering adversary actions. 
+It consists of the following seven phases.
+
+#### Phase 1: Reconnaissance
+The attacker identifies and selects their target through open-source intelligence gathering.
+
+#### Phase 2: Weaponization
+Malicious payloads are crafted, often combining an exploit and a delivery mechanism.
+
+#### Phase 3: Delivery 
+The adversary transmits the payload via methods such as phishing emails or infected USBs.
+
+#### Phase 4: Exploitation
+The malicious code is executed on the target system by exploiting a vulnerability.
+
+#### Phase 5: Installation
+The attacker establishes a foothold by installing backdoors or malware.
+
+#### Phase 6: Command and Control (C2)
+A channel is created for the attacker to remotely control the compromised system.
+
+#### Phase 7: Actions on Objectives
+The adversary achieves their intended goal, such as exfiltrating data or disrupting systems, causing severe damages within the whole IT environments.
+
 ### Courses of Action
+Defenders can employ specific actions at various stages of the kill chain to disrupt an adversary's campaign. These courses of action are categorized into six types: detection, denial, disruption, degradation, deception, and destruction. 
+Each course addresses a different phase of the attack to either halt its progression or reduce its impact.
+
+For instance, detection involves identifying adversary activity early to prevent further action, while denial focuses on blocking access to resources or vulnerabilities. Disruption targets the attacker's ability to execute their plan, such as cutting off command and control channels. 
+
+Deception, on the other hand, uses false information to mislead adversaries and waste their resources. These tailored approaches allow organizations to respond dynamically, reducing risk while maximizing defensive efficiency.
+
 ### Intrusion Reconstruction
+When an intrusion occurs, it is essential to reconstruct the event to understand what happened and how it occurred. This process involves analyzing logs with a tool as Splunk or something simmilar, correlating data, and mapping the incident to the kill chain stages. 
+By doing so, defenders can uncover gaps in their security posture and gain insights into the adversary's methods and objectives.
+
+Therefore, reconstruction serves several purposes. It helps organizations identify the root cause of an incident, refine detection capabilities, and enhance their response mechanisms. In addition to that it enables security teams to piece together adversary tactics, techniques, and procedures, forming a more comprehensive picture of the attack. 
+
+This information can then be fed back into defensive strategies to close vulnerabilities and anticipate similar threats in the future. That will result to a stronger and more secure IT environment.
+
 ### Campaign Analysis
-### Summary
+Campaign analysis elevates the focus from individual incidents to the larger patterns of adversary behavior. 
+
+By examining multiple intrusion attempts, analysts can discern an adversary's broader objectives, operational methods, and preferred tools. This macro-level perspective reveals how specific incidents fit into a larger strategy, providing deeper insights into threat actors.
+One of the key outcomes of campaign analysis is the ability to attribute attacks to specific groups or motivations, such as financial gain, espionage, or sabotage. 
+
+It also helps prioritize resources by identifying the most persistent or impactful threats. By tracking adversary campaigns over time, organizations can adopt a predictive stance, anticipating future actions and preparing defenses in advance.
+
+### Summary of Intelligence-Driven Computer Network Defense
+Intelligence-driven defense emphasizes understanding and countering adversaries through structured frameworks and actionable intelligence. 
+
+The kill chain provides a systematic approach to identifying and mitigating threats at each stage of an attack. Managing indicators ensures relevant and timely responses, while intrusion reconstruction uncovers valuable lessons for refining defenses. Campaign analysis broadens the scope of understanding, linking individual incidents to broader adversary strategies. This proactive and intelligence-led approach shifts cybersecurity from reactive measures to predictive and preventive strategies.
+
+With this information organizations can strengthen their resilience against the evolving landscape of cyber threats.
+
 
 ## Attack Story - A Cybersecurity Incident: The Supply Chain Compromise
 ### The Attack
