@@ -88,6 +88,9 @@ A procedure describes the practical implementation of a technique or a sub-techn
 ### Example of procedure
 Sending a phishing email with a malicious link to targeted users is a procedure used to achieve the Phishing technique.
 
+### Additional questions
+I wonder what kind of challenges the CISOs of organisations face when trying to implement ATT&CK principles in their environment. How do they monitor the progress of the implementation? 
+
 ## Attack Story - A Cybersecurity Incident: The Supply Chain Compromise
 ### The Attack
 On a quiet Thursday morning, an international logistics company noticed strange traffic from a server used to manage third-party vendors 
