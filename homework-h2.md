@@ -56,19 +56,37 @@ Analyzing multiple intrusion attempts helps the security analysts to understand 
 
 It also helps to prioritize resources by identifying the most persistent or impactful threats.
 
-### Summary of Intelligence-Driven Computer Network Defense
-Intelligence-driven defense is all about understanding and countering opponents through structured frameworks and actionable intelligence. 
-
-The kill chain provides a structured approach to identify and mitigate threats for each stage of an attack. Managing these indicators ensures relevant and timely responses, while intrusion reconstruction uncovers valuable lessons for refining defenses. Campaign analysis broadens the scope of understanding, linking individual incidents to broader adversary strategies. This proactive and intelligence-led approach shifts cybersecurity from reactive measures to predictive and preventive strategies.
-
-With this information organizations can strengthen their resilience against the evolving landscape of cyber threats.
-
-## Key Content and questions
+### Key Content and questions
 Intelligence-driven cybersecurity is used in order to stay ahead of attackers by understanding their tactics and using that know-how to prevent threats and find risks. Tools like the Intrusion Kill Chain break down attacks into different Phases which help defenders to block or disrupt them at specific situations.
 
 When attacks happen it is vital to analyze them as it helps to uncover vulnerabilities and improve defenses. Looking at broader patterns can reveal what attackers are after and how they operate. This allows organizations to adapt to future threats and respond more effectively. It is all about being proactive instead of reactive when it comes to defend a Information System against cyber threats.
 
 Even though this framework is of big importance, I wonder how smaller companies implement this. Do they even have the resources? Could the framework be optimized for smaller teams while maintaining its effectiveness?
+
+## Tactics, tools and procedures
+### Definition of tactic
+Every attack has its own reasons. Tactics are about the cause of an attack and it simply explains why the hacker performed the cyber crime or what he aims to achieve with it.
+
+### Example of tactic
+An example of tactic can be exfiltration where the adversary seeks to extract sensitive information from a network in order that he can sell it in the darknet. He would perform this attack to gain the information and make money with it.
+
+### Definition of technique
+Technique is all about how the attack is conducted, therefore it specifies the approaches or methods of the hacker to achieve their goals.
+
+### Example of technique
+In regards to the exfiltration tactic a technique could be Data Encrypted for Impact. Here the attackers encrypt files to disrupt access.
+
+### Definition of subtechnique
+A sub-technique provides a more detailed description of how the technique is implemented. 
+
+### Example of subtechnique
+For instance, a sub-technique of Data Encrypted for Impact might be Encrypt Network Share, where attackers target shared network drives for encryption.
+
+### Definition of procedure
+A procedure describes the practical implementation of a technique or a sub-technique. It states the specific actions taken by an adversary to achieve their objective.
+
+### Example of procedure
+Sending a phishing email with a malicious link to targeted users is a procedure used to achieve the Phishing technique.
 
 ## Attack Story - A Cybersecurity Incident: The Supply Chain Compromise
 ### The Attack
@@ -135,6 +153,9 @@ Inromation Security course resources
 https://terokarvinen.com/
 
 Intelligence Driven Computer: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+
+Tactics, tools and procedures:
+https://attack.mitre.org/resources/faq/#general-faq
 
 Story: 
 https://attack.mitre.org/techniques/T1195/
