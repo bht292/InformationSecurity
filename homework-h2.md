@@ -1,6 +1,6 @@
 # h2 Kill Chain
 ## Intelligence-Driven Computer Network Defense
-ntelligence-driven computer network defense represents a strong approach to cybersecurity, leveraging detailed insights into adversary tactics and strategies. The framework focuses on analyzing the different stages of cyber attacks. This is crucial to understand and interfere with their activities on a efficient way. 
+Intelligence-driven computer network defense represents a strong approach to cybersecurity, leveraging detailed insights into adversary tactics and strategies. The framework focuses on analyzing the different stages of cyber attacks. This is crucial to understand and interfere with their activities on a efficient way. 
 
 By applying intelligence to all aspects of cyber security, most of the organizations can expect, mitigate, and respond to threats with a precise way.
 
