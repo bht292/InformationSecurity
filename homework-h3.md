@@ -1,4 +1,4 @@
-# Hacking Lab
+# Hacking Lab set up
 ## Debian Installation on an Oracle Virtual Box VM
 1. Download Oracle Virtual Box which can be done [here](https://www.virtualbox.org/wiki/Downloads).
 2. Download the Debian ISO File which can be retrieved from [here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso).
@@ -48,6 +48,8 @@
 | `/etc/`                     | Stores system-wide configuration files in human-readable text format.                                                                                                                                                       |
 | `/media/`                   | Mount point for removable media like CDs and USB drives; e.g., `/media/cdrom/` or `/media/usbdisk/`.                                                                                                                        |
 | `/var/log/`                 | Contains system-wide log files; e.g., `/var/log/syslog` and `/var/log/apache2/error.log`.                                                                                                                                   |
+
+## Can't Fish
 
 # References
 Debian ISO Image: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
