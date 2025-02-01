@@ -50,6 +50,7 @@
 | `/var/log/`                 | Contains system-wide log files; e.g., `/var/log/syslog` and `/var/log/apache2/error.log`.                                                                                                                                   |
 
 ## Can't Fish
+![Scrennshot of Console](screenshots/homework-03-01-cant-fish.png)
 
 # References
 Debian ISO Image: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
