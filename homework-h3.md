@@ -57,10 +57,30 @@ Network connectivity is confirmed with a successful ping 8.8.8.8. The interface 
 Afterwards a ping to 8.8.8.8 fails with Network is unreachable, confirming that the network is disabled.
 
 ## Port scan
-Local only. Portscan your own computer using "localhost" address. It's illegal to portscan computers you don't own. Disconnect computer from the Internet while testing. Analyze your results. Do this task on your Linux.
-Analyzing means you explain the meaning of each little part of each command and output; then give clear conclusion; optionally end with an ELI5 (explain like I'm five years old).
+![Scrennshot of Console](screenshots/homework-03-02-port-scan.png)
+![Scrennshot of Console](screenshots/homework-03-03-port-scan.png)
+### Command and Parameters
+The sudo prefix ensures the command is executed with superuser privileges. This is important as this command requires that. The nmap tool is used to identify open ports and services running on them, therefore it was installed at the beginning via "sudo apt install nmap"
+The -A parameter enables advanced features like operating system detection, service version identification and a traceroute to map the network path. The target is localhost, which has the IP address 127.0.0.1.
+
+### Scanning Process
+1. Nmap begins the scan, followed by a warning ("it is unable to determine any DNS servers"), which means reverse DNS lookups are disabled. But this is not a problem as we scan localhost
+2. As soon as nmap confirms that local host is up, it proceeds with the actual scanning of open ports and services
+3. The scan shows the TCP ports 22 (SSH), 25 (SMTP), and 631 (IPP). SSH is used for remote sessions, SMTP is used for sending E-Mails and IPP is used for print jobs over networks.
+4. Next to the services the scan shows the operating system (Linux kernel from the 2.6.x series)
+5. The scan took in total 0 Network hops
+
+### ELI5 (Explain Like I’m 5)
+We used a tool called Nmap to "ask" the computer, What doors are open, and what it is doing behind them?
+The computer replied Door 22, 25 and 631 are open at the moment. Behind the doors I am doing some work, such as running SSH to allow secure logins, running an E-Mail service to send E-Mails and maniging printers.
+
+It is generally recommended to close the ports which are not used for security reasons. Why shall a door be left open only why nobody or nothing is in there?
 
 ## Daemon scan
+### Apache2 installation
+![Scrennshot of Console](screenshots/homework-03-05-Daemon.png)
+![Scrennshot of Console](screenshots/homework-03-06-Daemon.png)
+
 Daemon scan. Install a daemon (a server application) and port scan again. For example, you could install Apache web server or OpenSSH secure remote shell. Analyze the differences to scan without the daemon. Do this task on your Linux.
 
 ## Bandit oh-five
