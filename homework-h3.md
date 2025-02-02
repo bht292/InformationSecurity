@@ -57,8 +57,8 @@ Network connectivity is confirmed with a successful ping 8.8.8.8. The interface 
 Afterwards a ping to 8.8.8.8 fails with Network is unreachable, confirming that the network is disabled.
 
 ## Port scan
-![Scrennshot of Console](screenshots/homework-03-02-port-scan.png)
 ![Scrennshot of Console](screenshots/homework-03-03-port-scan.png)
+![Scrennshot of Console](screenshots/homework-03-04-port-scan.png)
 ### Command and Parameters
 The sudo prefix ensures the command is executed with superuser privileges. This is important as this command requires that. The nmap tool is used to identify open ports and services running on them, therefore it was installed at the beginning via "sudo apt install nmap"
 The -A parameter enables advanced features like operating system detection, service version identification and a traceroute to map the network path. The target is localhost, which has the IP address 127.0.0.1.
@@ -81,7 +81,12 @@ It is generally recommended to close the ports which are not used for security r
 ![Scrennshot of Console](screenshots/homework-03-05-Daemon.png)
 ![Scrennshot of Console](screenshots/homework-03-06-Daemon.png)
 
-Daemon scan. Install a daemon (a server application) and port scan again. For example, you could install Apache web server or OpenSSH secure remote shell. Analyze the differences to scan without the daemon. Do this task on your Linux.
+### Difference to scan without daemon
+Now that the webserver has been installed and started port 80 (http) is activated. Port 443 (https) could also be enabled if a valid ceritficat is installed and ssl should be used which is from a security matters not even a question!
+![Scrennshot of Console](screenshots/homework-03-07-Daemon.png)
+
+The rest is equal, as no ports have been deactivated.
+
 
 ## Bandit oh-five
 
