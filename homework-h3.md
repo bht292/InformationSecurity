@@ -52,8 +52,24 @@
 ## Can't Fish
 ![Scrennshot of Console](screenshots/homework-03-01-cant-fish.png)
 
+"ip addr show" is used to list network interfaces, showing that the adapter enp0s3 is active with an IP address. 
+Network connectivity is confirmed with a successful ping 8.8.8.8. The interface is then disabled using sudo "ip link set enp0s3 down". 
+Afterwards a ping to 8.8.8.8 fails with Network is unreachable, confirming that the network is disabled.
+
+## Port scan
+Local only. Portscan your own computer using "localhost" address. It's illegal to portscan computers you don't own. Disconnect computer from the Internet while testing. Analyze your results. Do this task on your Linux.
+Analyzing means you explain the meaning of each little part of each command and output; then give clear conclusion; optionally end with an ELI5 (explain like I'm five years old).
+
+## Daemon scan
+Daemon scan. Install a daemon (a server application) and port scan again. For example, you could install Apache web server or OpenSSH secure remote shell. Analyze the differences to scan without the daemon. Do this task on your Linux.
+
+## Bandit oh-five
+
+## Underthewire
 # References
 Debian ISO Image: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
 Oracle Virtual Box download: https://www.virtualbox.org/wiki/Downloads
 Installation of virtual machine: https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
+## Reference
+https://terokarvinen.com/information-security/
