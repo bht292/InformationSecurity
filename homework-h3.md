@@ -89,12 +89,57 @@ The rest is equal, as no ports have been deactivated.
 
 
 ## Bandit oh-five
+### Level 0
+The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
+![Scrennshot of Console](screenshots/homework-03-08-OTW.png)
 
+First I installed ssh with sudo apt install ssh and then I could login to the bandit as shown in the screenshot.
+
+### Level 0 --> 1
+The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
+![Scrennshot of Console](screenshots/homework-03-09-OTW.png)
+
+With the find command I found the file and got the first password.
+
+### Level 1 --> 2
+The password for the next level is stored in a file called - located in the home directory
+![Scrennshot of Console](screenshots/homework-03-10-OTW.png)
+![Scrennshot of Console](screenshots/homework-03-11-OTW.png)
+
+After logging in with the user 1 I also used the find command to find the pw as shown in the screenshot.
+
+### Level 2 --> 3
+The password for the next level is stored in a file called spaces in this filename located in the home directory
+![Scrennshot of Console](screenshots/homework-03-12-OTW.png)
+
+The same concept applied here only that I had to search the file in "" as there were spaces in it. Otherwise the system could not handle it.
+
+### Level 3 --> 4
+The password for the next level is stored in a hidden file in the inhere directory.
+![Scrennshot of Console](screenshots/homework-03-13-OTW.png)
+
+Here the hidden file had to be found with the command ls -la
+
+### Level 4 --> 5
+The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+![Scrennshot of Console](screenshots/homework-03-14-OTW.png)
+
+I iterrated to the first files before I wanted to start filtering ;P
+
+### Level 5--> 6
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+* human-readable
+* 1033 bytes in size
+* not executable
+![Scrennshot of Console](screenshots/homework-03-15-OTW.png)
+
+This time I used the find filter and searched for the file size as shown in the picture.
+
+## 
 ## Underthewire
 # References
 Debian ISO Image: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
 Oracle Virtual Box download: https://www.virtualbox.org/wiki/Downloads
 Installation of virtual machine: https://terokarvinen.com/2021/install-debian-on-virtualbox/
-
-## Reference
-https://terokarvinen.com/information-security/
+Linux commands: https://terokarvinen.com/2020/command-line-basics-revisited/
+Bandit game: https://overthewire.org/wargames/bandit/
