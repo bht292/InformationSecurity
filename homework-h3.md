@@ -135,8 +135,6 @@ The password for the next level is stored in a file somewhere under the inhere d
 
 This time I used the find filter and searched for the file size as shown in the picture.
 
-## 
-## Underthewire
 # References
 Debian ISO Image: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso
 Oracle Virtual Box download: https://www.virtualbox.org/wiki/Downloads
