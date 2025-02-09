@@ -187,3 +187,4 @@ INSERT INTO Students (Name) VALUES ('Robert'); DROP TABLE Students;--');
 * Vulnerable and outdated components: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
 * Injection: https://owasp.org/Top10/A03_2021-Injection/
 * Injection: https://snyk.io/de/blog/command-injection-python-prevention-examples/
+* Exploits of a Mom: https://xkcd.com/327/
