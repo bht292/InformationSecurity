@@ -60,3 +60,52 @@ https://example.com/app/getappInfo
 https://example.com/app/admin_getappInfo
 ```
 If a non-admin user can access the admin page, it's a security flaw.
+
+## Security Misconfiguration
+Security misconfiguration arises when applications or systems are improperly configured and not monitored. This leaves them weak and defensless to attacks.
+### Vulnerabilites
+* Leaving default usernames and passwords active allows attackers extrem easy access
+* Running services or features that aren't needed increases the attack surface and risks
+* Displaying detailed errors can reveal sensitive information to attackers who think logically
+* Not applying security patches makes systems vulnerable to known exploits
+  
+### Prevention
+* Implement a Repeatable hardening Process
+* Minimize platform features, by removing unnecessary features, components, and services
+* Update and patch systems on a regular basis or as soon as vendors publish them
+* Use segmentation and containerization to isolate components and limit potential damage from a breach
+* Implement monitoring tools which react on attacks and inform the administrators
+* Conduct penetration tests to find vulnerabilities
+ 
+### Example attack scenarios
+#### Scenario 1
+##### Default password on admin account of a website
+The administrator does not change the default password for some reason and the hacker gains access to his account without even trying much
+
+#### Scenario 2
+##### Unremoved Sample Applications
+An application server retains default sample applications post-deployment. Attackers exploit known vulnerabilities in these samples to compromise the server.
+
+#### Scenario 3
+##### Verbose Error Disclosure
+An application displays detailed error messages such as the password is incorrect instead of the "authentication failed". Attackers leverage this information and only try to figure out the password now.
+
+## Vulnerable and Outdated Components
+### Vulnerabilites
+### Prevention
+### Example attack scenarios
+
+## Injection
+### Vulnerabilites
+### Prevention
+### Example attack scenarios
+
+## Security Misconfiguration
+### Vulnerabilites
+### Prevention
+### Example attack scenarios
+
+## References
+* Broken access control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+* Broken access control: https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
+* Security misconfiguration: https://owasp.org/Top10/A05_2021-Security_Misconfiguration/
