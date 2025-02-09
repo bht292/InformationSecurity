@@ -70,7 +70,7 @@ Security misconfiguration arises when applications or systems are improperly con
 * Not applying security patches makes systems vulnerable to known exploits
   
 ### Prevention
-* Implement a Repeatable hardening Process
+* Implement a repeatable hardening Process
 * Minimize platform features, by removing unnecessary features, components, and services
 * Update and patch systems on a regular basis or as soon as vendors publish them
 * Use segmentation and containerization to isolate components and limit potential damage from a breach
@@ -91,21 +91,82 @@ An application server retains default sample applications post-deployment. Attac
 An application displays detailed error messages such as the password is incorrect instead of the "authentication failed". Attackers leverage this information and only try to figure out the password now.
 
 ## Vulnerable and Outdated Components
+This issue happens when applications use outdated libraries, frameworks, or software modules. These components may have known vulnerabilities that attackers can directly exploit.
+
 ### Vulnerabilites
+The common vulnerabilities here are:
+* Unpatched Libraries
+* Unsupported Software of vendors
+* Unverified Dependencies
+* Running the systems not on actual versions
+
 ### Prevention
+In order to prevent these attacks to happen the following measures can be conducted:
+* Keep a detailed list of all components and their versions for client-side and server-side in order to stay on the newest versions
+* Use automated tools to identify vulnerabilities in components and their dependencies
+* Apply security updates to address known vulnerabilities
+* Obtain components from official sources and prefer signed packages to ensure authenticity
+  
 ### Example attack scenarios
+#### Scenario 1
+##### Unpatched Framework
+An application uses an outdated version of a web framework with a known vulnerability. Attackers exploit this flaw with their knowledge to execute arbitrary code on the server.
+
+#### Scenario 2
+##### Deprecated Library
+A component in the application relies on a deprecated library that no longer receives security updates. Attackers exploit a known vulnerability in this library to gain unauthorized access.
 
 ## Injection
-### Vulnerabilites
-### Prevention
-### Example attack scenarios
+Injection happens when specific data is sent to a system as part of a command or query. This allows attackers to execute unintended commands or access unauthorized data.
 
-## Security Misconfiguration
 ### Vulnerabilites
+The dangers are:
+* Unvalidated user entries by the system
+* Dynamic queries or commands that don’t use safe methods
+* Leaving open gaps for SQL Injection, cross-site scripting or command Injection
+  
 ### Prevention
+* Implement specific form checks where malicous strings are not accepted prior to being sent
+* Use Parameterized Queries which mploy prepared statements to separate data from code
+* Properly escape user inputs based on the interpreter's context
+  
 ### Example attack scenarios
+#### Scenario 1
+##### SQL Injection 
+An attacker modifies a URL parameter to execute a malicious SQL query
+```sql
+http://example.com/app/account?id=' OR '1'='1
+```
+This example could allow unauthorized access to all user accounts, since 1 equals to 1 ;P
+
+#### Scenario 2
+##### Command Injection 
+A web application passes user input directly to a shell command
+```python
+os.system("ping -c 1 " + user_input)
+```
+If an attacker provides ; rm -rf /, it could delete critical files on the server since it is also a relative path
+
+
+## Reflection 
+### Own comments
+### Questions 
+1. What are the best practices for implementing role-based access control (RBAC) securely?
+2. What are the most common misconfigurations that attackers exploit in cloud-based applications?
+3. How do modern frameworks help prevent SQL injection and other injection-based attacks?
+
+### Ideas
+#### 1. Idea during SQL injection
+Instead of just escaping user input, applications could implement strict input whitelisting, ensuring only predefined, expected values are accepted, significantly lowering the risk of injection attacks.
+
+#### 2. Idea during Broken access control
+Multi-factor authentication (MFA) alone isn’t enough—systems should also enforce strict session management to prevent unauthorized users from hijacking authenticated sessions.
+
 
 ## References
 * Broken access control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 * Broken access control: https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
 * Security misconfiguration: https://owasp.org/Top10/A05_2021-Security_Misconfiguration/
+* Vulnerable and outdated components: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
+* Injection: https://owasp.org/Top10/A03_2021-Injection/
+* Injection: https://snyk.io/de/blog/command-injection-python-prevention-examples/
