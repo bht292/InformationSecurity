@@ -148,7 +148,6 @@ os.system("ping -c 1 " + user_input)
 If an attacker provides ; rm -rf /, it could delete critical files on the server since it is also a relative path
 
 ## Reflection 
-
 ### Questions 
 1. What are the best practices for implementing role-based access control (RBAC) securely?
 2. What are the most common misconfigurations that attackers exploit in cloud-based applications?
@@ -162,6 +161,24 @@ Instead of just escaping user input, applications could implement strict input w
 Multi-factor authentication (MFA) alone isn’t enough—systems should also enforce strict session management to prevent unauthorized users from hijacking authenticated sessions.
 
 ## Exploits of a Mom
+![Comic](homework-04-1-MOM)
+
+### What happend?
+A mother gave her son a very special name "Robert'); DROP TABLE Students;--", which causes database damage when the school's system tries to store his name. 
+The joke lies in how the name is formatted. It is an SQL command. All the students entries are gone after this SQL injection as DROP table deletes a table.
+Unfortunately no referential integrity has been applied here and especially no cyber security! 
+
+### What most likely happend in the school's database system
+The application might be running an SQL query like this when inserting a Roberts name into the database:
+```sql
+INSERT INTO Students (Name) VALUES ('Robert'); DROP TABLE Students;--');
+```
+
+### How it could have been prevented
+* Useage of prepared statements with parameterized queries
+* Escape of special characters in user input
+* Restriction of database permissions to prevent unauthorized table deletion
+* Validation of the whole user string input
 
 ## References
 * Broken access control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
