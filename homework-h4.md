@@ -28,7 +28,7 @@ To stop it, apps should block access by default and make sure permissions are ch
 
 ### Example attack scenarios
 #### Privilege Escalation via Role Manipulation
-Scenario 1
+##### Scenario 1
 A regular user intercepts a request and modifies their role from "user" to "admin" in a poorly protected application:
 ```json
 {
@@ -38,20 +38,20 @@ A regular user intercepts a request and modifies their role from "user" to "admi
 ```
 If the system accepts this change the user gains admin privileges without authorization.
 
-Scenario 2
+##### Scenario 2
 A user changes the userID parameter in an API request to access another user's data:
 ```bash
 GET /api/user/1234/profile
 ```
 Changing 1234 to 5678 allows unauthorized access to another user’s profile if proper access controls aren’t enforced.
 
-Scenario 3 
+##### Scenario 3 
 An application uses unverified data in a SQL query to access account information. An attacker modifies the 'acct' parameter in the browser to access another user's account:
 ```
 https://example.com/app/accountInfo?acct=notmyacct
 ```
 
-Scenario 4
+##### Scenario 4
 An attacker forcefully browses to URLs requiring administrative rights:
 ```
 https://example.com/app/getappInfo
