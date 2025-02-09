@@ -147,9 +147,8 @@ os.system("ping -c 1 " + user_input)
 ```
 If an attacker provides ; rm -rf /, it could delete critical files on the server since it is also a relative path
 
-
 ## Reflection 
-### Own comments
+
 ### Questions 
 1. What are the best practices for implementing role-based access control (RBAC) securely?
 2. What are the most common misconfigurations that attackers exploit in cloud-based applications?
@@ -162,6 +161,7 @@ Instead of just escaping user input, applications could implement strict input w
 #### 2. Idea during Broken access control
 Multi-factor authentication (MFA) alone isn’t enough—systems should also enforce strict session management to prevent unauthorized users from hijacking authenticated sessions.
 
+## Exploits of a Mom
 
 ## References
 * Broken access control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
