@@ -275,3 +275,6 @@ Here I basically bypassed the authentication by adding the string "' OR 1=1-- " 
 * Injection: https://snyk.io/de/blog/command-injection-python-prevention-examples/
 * Exploits of a Mom: https://xkcd.com/327/
 * Web goat installation: https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
+* SQL injections: https://sqlzoo.net/wiki/SQL_Tutorial
+* SQL injections: https://portswigger.net/web-security/all-labs
+* SQL injection: https://github.com/WebGoat/WebGoat
