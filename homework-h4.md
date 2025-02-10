@@ -220,7 +220,7 @@ This process took a while...
 
 ## e) Solve Portswigger Labs
 Before the attack:
-![injection](screenshots/homework-04-15-injection.png)
+![injection](screenshots/homework-04-14-injection.png)
 
 After the attack:
 ![injection](screenshots/homework-04-15-injection.png)
@@ -249,8 +249,22 @@ Hence 'Accessories' Closes the original category string. OR 1=1 Always evaluates
 -- Comments out the rest of the query (AND released = 1), bypassing the restriction.  This forces the database to return all products, including hidden/unreleased ones.
 
 ## m) Voluntary bonus: WebGoat: SQL Injection
+![injection](screenshots/homework-04-19-injectiongoat.png)
+![injection](screenshots/homework-04-20-injectiongoat.png)
+![injection](screenshots/homework-04-21-injectiongoat.png)
+![injection](screenshots/homework-04-22-injectiongoat.png)
+![injection](screenshots/homework-04-23-injectiongoat.png)
+![injection](screenshots/homework-04-24-injectiongoat.png)
+![injection](screenshots/homework-04-25-injectiongoat.png)
+![injection](screenshots/homework-04-26-injectiongoat.png)
+
 
 ## n) Voluntary bonus: solve some Portswigger labs marked as Apprentice (easy level)
+![injection](screenshots/homework-04-16-injection.png)
+![injection](screenshots/homework-04-17-injection.png)
+![injection](screenshots/homework-04-18-injection.png)
+
+Here I basically bypassed the authentication by adding the string "' OR 1=1-- " into username field and password.
 
 ## References
 * Broken access control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
