@@ -180,6 +180,73 @@ INSERT INTO Students (Name) VALUES ('Robert'); DROP TABLE Students;--');
 * Restriction of database permissions to prevent unauthorized table deletion
 * Validation of the whole user string input
 
+## Web goat 
+### Installation
+For this task I followed Tero's page
+![WebGoat](homework-04-2-goat.png)
+![WebGoat](homework-04-3-goat.png)
+![WebGoat](homework-04-4-goat.png)
+![WebGoat](homework-04-5-goat.png)
+![WebGoat](homework-04-6-goat.png)
+
+### b) F12. Solve Webgoat 2023.4: General: Developer tools
+The first task was quite easy as I am already familiar with the devtools
+![WebGoat](homework-04-7-goat.png)
+
+However the second task requried a little bit of searching as I did not notice the request button first. But afterwards I found the post request which gave me the network number
+![WebGoat](homework-04-8-goat.png)
+
+## c) Not outdated. Update all operating system and all applications in your Linux.
+In order to update my whole machine I ran the following commands
+```bash
+sudo apt update
+sudo apt upgrade -y
+sudo apt full-upgrade -y
+```
+This process took a while...
+
+## d) Sequel
+### 0 SELECT Basics
+![Sequel](homework-04-8-sql.png)
+![Sequel](homework-04-10-sql.png)
+![Sequel](homework-04-11-sql.png)
+
+### 2 SELECT FROM WORLD
+#### "1. You can use WHERE..."
+![Sequel](homework-04-12-sql.png)
+
+#### "2. Find the countries...".
+![Sequel](homework-04-13-sql.png)
+
+## e) Solve Portswigger Labs
+### Explain how and why! 
+This vulnerability exists because the application concatenates user input directly into an SQL query, which allows an attacker to manipulate the query logic. 
+By injecting OR 1=1--, an attacker modifies the WHERE clause to always return true, bypassing filters and exposing hidden data. 
+The issue arises due to a lack of input checks and the failure to use parameterized queries, which would otherwise prevent SQL code execution.
+
+### How can you find the vulnerabitiy? 
+In order to find the vulnerability I had to look where I can enter some strings.
+Here it was the url, but it could also be searchbars or registration forms. 
+The rule is to locate where something can be typed in.
+
+### What each part of the exploit does?
+When an attacker modifies the URL:
+```
+https://0a6400a903909bc48df15154005f00ee.web-security-academy.net/filter?category=Accessories%27%20OR%201=1--
+```
+
+The SQL query changes to:
+```sql
+SELECT * FROM products WHERE category = 'Accessories' OR 1=1--' AND released = 1;
+```
+
+Hence 'Accessories' Closes the original category string. OR 1=1 Always evaluates to TRUE, making the WHERE clause useless.
+-- Comments out the rest of the query (AND released = 1), bypassing the restriction.  This forces the database to return all products, including hidden/unreleased ones.
+
+## m) Voluntary bonus: WebGoat: SQL Injection
+
+## n) Voluntary bonus: solve some Portswigger labs marked as Apprentice (easy level)
+
 ## References
 * Broken access control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 * Broken access control: https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
@@ -188,3 +255,4 @@ INSERT INTO Students (Name) VALUES ('Robert'); DROP TABLE Students;--');
 * Injection: https://owasp.org/Top10/A03_2021-Injection/
 * Injection: https://snyk.io/de/blog/command-injection-python-prevention-examples/
 * Exploits of a Mom: https://xkcd.com/327/
+* Web goat installation: https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
