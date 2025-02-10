@@ -161,7 +161,7 @@ Instead of just escaping user input, applications could implement strict input w
 Multi-factor authentication (MFA) alone isn’t enough—systems should also enforce strict session management to prevent unauthorized users from hijacking authenticated sessions.
 
 ## Exploits of a Mom
-![Comic](homework-04-1-MOM)
+![Comic](screenshots/homework-04-1-MOM.png)
 
 ### What happend?
 A mother gave her son a very special name "Robert'); DROP TABLE Students;--", which causes database damage when the school's system tries to store his name. 
@@ -183,18 +183,18 @@ INSERT INTO Students (Name) VALUES ('Robert'); DROP TABLE Students;--');
 ## Web goat 
 ### Installation
 For this task I followed Tero's page
-![WebGoat](homework-04-2-goat.png)
-![WebGoat](homework-04-3-goat.png)
-![WebGoat](homework-04-4-goat.png)
-![WebGoat](homework-04-5-goat.png)
-![WebGoat](homework-04-6-goat.png)
+![WebGoat](screenshots/homework-04-2-goat.png)
+![WebGoat](screenshots/homework-04-3-goat.png)
+![WebGoat](screenshots/homework-04-4-goat.png)
+![WebGoat](screenshots/homework-04-5-goat.png)
+![WebGoat](screenshots/homework-04-6-goat.png)
 
 ### b) F12. Solve Webgoat 2023.4: General: Developer tools
 The first task was quite easy as I am already familiar with the devtools
-![WebGoat](homework-04-7-goat.png)
+![WebGoat](screenshots/homework-04-7-goat.png)
 
 However the second task requried a little bit of searching as I did not notice the request button first. But afterwards I found the post request which gave me the network number
-![WebGoat](homework-04-8-goat.png)
+![WebGoat](screenshots/homework-04-8-goat.png)
 
 ## c) Not outdated. Update all operating system and all applications in your Linux.
 In order to update my whole machine I ran the following commands
@@ -207,23 +207,23 @@ This process took a while...
 
 ## d) Sequel
 ### 0 SELECT Basics
-![Sequel](homework-04-8-sql.png)
-![Sequel](homework-04-10-sql.png)
-![Sequel](homework-04-11-sql.png)
+![Sequel](screenshots/homework-04-8-sql.png)
+![Sequel](screenshots/homework-04-10-sql.png)
+![Sequel](screenshots/homework-04-11-sql.png)
 
 ### 2 SELECT FROM WORLD
 #### "1. You can use WHERE..."
-![Sequel](homework-04-12-sql.png)
+![Sequel](screenshots/homework-04-12-sql.png)
 
 #### "2. Find the countries...".
-![Sequel](homework-04-13-sql.png)
+![Sequel](screenshots/homework-04-13-sql.png)
 
 ## e) Solve Portswigger Labs
 Before the attack:
-![Sequel](homework-04-14-injection.png)
+![injection](screenshots/homework-04-15-injection.png)
 
 After the attack:
-![Sequel](homework-04-15-injection.png)
+![injection](screenshots/homework-04-15-injection.png)
 ### Explain how and why! 
 This vulnerability exists because the application concatenates user input directly into an SQL query, which allows an attacker to manipulate the query logic. 
 By injecting OR 1=1--, an attacker modifies the WHERE clause to always return true, bypassing filters and exposing hidden data. 
