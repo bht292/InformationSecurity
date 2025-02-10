@@ -219,6 +219,11 @@ This process took a while...
 ![Sequel](homework-04-13-sql.png)
 
 ## e) Solve Portswigger Labs
+Before the attack:
+![Sequel](homework-04-14-injection)
+
+After the attack:
+![Sequel](homework-04-15-injection)
 ### Explain how and why! 
 This vulnerability exists because the application concatenates user input directly into an SQL query, which allows an attacker to manipulate the query logic. 
 By injecting OR 1=1--, an attacker modifies the WHERE clause to always return true, bypassing filters and exposing hidden data. 
