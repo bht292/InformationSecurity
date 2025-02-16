@@ -68,7 +68,7 @@ This process ensures that messages remain **securely encrypted and authenticated
 I have already installed SSH for the bandit over the wire tasks. But the command would be:
 ```bash
 sudo apt update && sudo apt install -y openssh-server
-
+```
 ![Shell](screenshots/homework-05-a1.png)
 
 
