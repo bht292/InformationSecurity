@@ -109,14 +109,10 @@ Passwords can be stored in a password database securely. You dont have to rememb
 ![Shell](screenshots/homework-05-d5.png)
 
 ### Explain why a password manager is needed i.e. what kind of attacks or threats it protects against.
-A password manager is essential for keeping your accounts secure. Without one, people tend to use weak passwords or reuse the same ones across multiple sites, making them easy targets for hackers.
-One major risk is password reuse attacks—if a hacker gets one password from a breached website, they can try it on other accounts. A password manager prevents this by storing a unique password for every account.
-Another threat is phishing, where fake websites trick users into entering their login details. 
+A password manager is essential for keeping your accounts secure. Without one, people tend to use weak passwords or reuse the same ones across multiple sites, making them easy targets for hackers. One major risk is password reuse attacks—if a hacker gets one password from a breached website, they can try it on other accounts. A password manager prevents this by storing a unique password for every account. Another threat is phishing, where fake websites trick users into entering their login details. 
 
-A password manager helps by autofilling only on real sites, so you don’t accidentally enter your credentials on a scam page.
-Keyloggers, which record everything typed on a keyboard, can steal passwords. Since a password manager auto-fills login details, it helps protect against keylogging attacks.
-Using long and complex passwords is one of the best defenses against brute force attacks, where hackers try millions of combinations to guess a password. A password manager generates and remembers strong passwords for you.
-It also solves the issue of forgotten passwords—instead of writing them down or resetting them constantly, you just remember one master password, and the manager securely stores the rest.
+Furthermore, it helps by autofilling only on real sites, so you don’t accidentally enter your credentials on a scam page. Keyloggers, which record everything typed on a keyboard, can steal passwords. Since a password manager auto-fills login details, it helps protect against keylogging attacks. Using long and complex passwords is one of the best defenses against brute force attacks, where hackers try millions of combinations to guess a password. A password manager generates and remembers strong passwords for you. It also solves the issue of forgotten passwords—instead of writing them down or resetting them constantly, you just remember one master password, and the manager securely stores the rest. 
+
 In short, a password manager makes security easy and automatic. It protects against hacks, phishing, keyloggers, and weak passwords—so you stay safe online with minimal effort.
 
 ## o) Voluntary bonus:
