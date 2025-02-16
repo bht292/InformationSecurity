@@ -111,8 +111,31 @@ Passwords can be stored in a password database securely. You dont have to rememb
 ### Explain why a password manager is needed i.e. what kind of attacks or threats it protects against.
 A password manager is essential for keeping your accounts secure. Without one, people tend to use weak passwords or reuse the same ones across multiple sites, making them easy targets for hackers.
 One major risk is password reuse attacks—if a hacker gets one password from a breached website, they can try it on other accounts. A password manager prevents this by storing a unique password for every account.
-Another threat is phishing, where fake websites trick users into entering their login details. A password manager helps by autofilling only on real sites, so you don’t accidentally enter your credentials on a scam page.
+Another threat is phishing, where fake websites trick users into entering their login details. 
+
+A password manager helps by autofilling only on real sites, so you don’t accidentally enter your credentials on a scam page.
 Keyloggers, which record everything typed on a keyboard, can steal passwords. Since a password manager auto-fills login details, it helps protect against keylogging attacks.
 Using long and complex passwords is one of the best defenses against brute force attacks, where hackers try millions of combinations to guess a password. A password manager generates and remembers strong passwords for you.
 It also solves the issue of forgotten passwords—instead of writing them down or resetting them constantly, you just remember one master password, and the manager securely stores the rest.
 In short, a password manager makes security easy and automatic. It protects against hacks, phishing, keyloggers, and weak passwords—so you stay safe online with minimal effort.
+
+## o) Voluntary bonus:
+Find out frequency distribution of letters for a language that you know (other than English). 
+What are the six most common letters? (This subtask y does not require tests with a computer if the question can be answered without them)
+
+The following table shows the approximate frequency of letters in the Spanish language:
+
+| Rank | Letter | Frequency (%) |
+|------|--------|--------------|
+| 1    | **E**  | 13.72%       |
+| 2    | **A**  | 11.72%       |
+| 3    | **O**  | 8.44%        |
+| 4    | **S**  | 7.20%        |
+| 5    | **N**  | 6.83%        |
+| 6    | **R**  | 6.41%        |
+
+These percentages are from an analysis of a Spanish text comprising **2,129,690 characters** across various literary genres.
+
+## References
+PGP Knowlegde: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+o) voluntary bonus: https://www.sttmedia.com/characterfrequency-spanish
