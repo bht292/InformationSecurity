@@ -41,29 +41,46 @@ A combination of an algorithm, plaintexts, ciphertexts, and keys.
 - Rubber-hose cryptanalysis: Coercion or bribery to obtain keys.
 
 ### **1.5 Security of Algorithms**
-- **Breaking an Algorithm:** Different levels:
-  - **Total break:** Discovering the exact key.
-  - **Global deduction:** Finding an equivalent decryption method without the key.
-  - **Instance deduction:** Recovering plaintext for specific ciphertexts.
-  - **Information deduction:** Gaining partial information about keys or plaintext.
-- **Unconditional security:** Only **one-time pads** provide this level of security.
-- **Computational security:** The algorithm is infeasible to break with current technology.
+- Breaking an Algorithm: Different levels:
+  - Total break: Discovering the exact key.
+  - Global deduction: Finding an equivalent decryption method without the key.
+  - Instance deduction: Recovering plaintext for specific ciphertexts.
+  - Information deduction: Gaining partial information about keys or plaintext.
+- Unconditional security: Only **one-time pads** provide this level of security.
+- Computational security: The algorithm is infeasible to break with current technology.
 
 ### **1.6 Steganography**
 - Conceals the existence of messages rather than just encrypting them.
 - Modern methods include hiding messages in images by altering the least significant bits of pixels.
 
-## **1.7 Classical Ciphers**
-- **Substitution Ciphers:** Replace each character with another.
-  - **Simple (Monoalphabetic):** One-to-one substitution.
-  - **Homophonic:** Multiple ciphertext options for each plaintext character.
-  - **Polygram:** Encrypts groups of characters.
-  - **Polyalphabetic:** Uses multiple substitution alphabets (e.g., Vigenère cipher).
-- **Transposition Ciphers:** Rearrange the order of characters without altering them.
+### **1.7 Classical Ciphers**
+- Substitution Ciphers: Replace each character with another.
+  - Simple (Monoalphabetic): One-to-one substitution.
+  - Homophonic: Multiple ciphertext options for each plaintext character.
+  - Polygram: Encrypts groups of characters.
+  - Polyalphabetic: Uses multiple substitution alphabets (e.g., Vigenère cipher).
+- Transposition Ciphers: Rearrange the order of characters without altering them.
   - Example: Columnar transposition cipher.
-- **Rotor Machines:** Mechanical encryption devices, such as the German **Enigma**.
+- Rotor Machines: Mechanical encryption devices, such as the German **Enigma**.
 
+## 1.8 Modern Cryptographic Methods
+- Simple XOR: A basic encryption method using bitwise XOR operations, insecure for serious use.
+- One-Time Pads: Perfect encryption but impractical for large-scale communication.
+- Popular Algorithms:
+  - DES: Symmetric, widely used but now considered weak due to its short key length.
+  - RSA: Public-key encryption used for both encryption and digital signatures.
+  - DSA: Public-key algorithm used only for digital signatures.
 
+## 1.9 Cryptographic Complexity
+- Evaluated based on:
+  - Data complexity: Amount of data required for an attack.
+  - Processing complexity: Time required for an attack (work factor).
+  - Storage requirements: Memory needed for the attack.
+- Brute-force attacks: Trying all possible keys, feasible only for short key lengths.
+
+## 1.10 Historical Terms
+- Codes: Replace words or phrases with symbols.
+- Ciphers: Replace or rearrange individual characters or bits.
 
 
 
