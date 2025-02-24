@@ -63,7 +63,7 @@ A combination of an algorithm, plaintexts, ciphertexts, and keys.
   - Example: Columnar transposition cipher.
 - Rotor Machines: Mechanical encryption devices, such as the German **Enigma**.
 
-## 1.8 Modern Cryptographic Methods
+### 1.8 Modern Cryptographic Methods
 - Simple XOR: A basic encryption method using bitwise XOR operations, insecure for serious use.
 - One-Time Pads: Perfect encryption but impractical for large-scale communication.
 - Popular Algorithms:
@@ -71,14 +71,14 @@ A combination of an algorithm, plaintexts, ciphertexts, and keys.
   - RSA: Public-key encryption used for both encryption and digital signatures.
   - DSA: Public-key algorithm used only for digital signatures.
 
-## 1.9 Cryptographic Complexity
+### 1.9 Cryptographic Complexity
 - Evaluated based on:
   - Data complexity: Amount of data required for an attack.
   - Processing complexity: Time required for an attack (work factor).
   - Storage requirements: Memory needed for the attack.
 - Brute-force attacks: Trying all possible keys, feasible only for short key lengths.
 
-## 1.10 Historical Terms
+### 1.10 Historical Terms
 - Codes: Replace words or phrases with symbols.
 - Ciphers: Replace or rearrange individual characters or bits.
 
