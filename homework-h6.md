@@ -34,6 +34,10 @@ Afterwards I proceeded with hashcat:
 The password is disobey
 
 ## m) Voluntary: Compile John the Ripper, Jumbo version
+For this task I followed Teros guide
+
+![Screenshot](./screenshots/homework-06-m1.png)
+![Screenshot](./screenshots/homework-06-m2.png)
 
 ## n) Voluntary: Crack a zip file password
 
