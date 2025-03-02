@@ -40,9 +40,18 @@ The password is disobey
 ## o) Voluntary: create a password protected file other than ZIP
 Crack the password. How many formats can you handle?
 
-## p) Voluntary: Watch and summarize: Forbes 2019: Jackpotting ATM's (Automated Teller Machines) 
-Presented in Disobey 2019.
+## p) Voluntary: Watch and summarize: Forbes 2019: Jackpotting ATM's (Automated Teller Machines) Presented in Disobey 2019.
+I watched the presentation on youtube, very interesting!
+Here the link: https://www.youtube.com/watch?v=ThPJrPf7O2s
+My keypoints from the presentation are
+* ATM Construction and the Vulnerabilities: Forbes highlighted that while the cash storage compartment of ATMs is heavily secured, the upper compartment housing the software components is often less protected.
+* Jackpotting Techniques: Attackers typically gain physical access to the ATM's internal components to install malicious software or hardware devices. Once installed, these tools can command the machine to dispense cash on demand. ​
+* Real-World Implications: The presentation underscored the severity of jackpotting attacks, referencing incidents where substantial sums were stolen in short periods (1.5 Millions in hours).
+* Preventative Measures: Forbes underlined the importance of implementing robust security protocols to safeguard ATMs. Recommendations included enhancing physical security measures, regularly updating software to patch vulnerabilities, and monitoring for unusual activities that could indicate tampering. This are normal procedures as it is also a software!
+
+
 
 ## References
 Task a) https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 Task b) https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+task p) https://www.youtube.com/watch?v=ThPJrPf7O2s
