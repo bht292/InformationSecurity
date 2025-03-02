@@ -40,9 +40,15 @@ For this task I followed Teros guide
 ![Screenshot](./screenshots/homework-06-m2.png)
 
 ## n) Voluntary: Crack a zip file password
+Cracking the ZIP password consits of two steps. 
+First, the hash has to be extracted into a new file. I will call this tero.zip.hash.
 
-## o) Voluntary: create a password protected file other than ZIP
-Crack the password. How many formats can you handle?
+After that i tried to perform the attack through the tero.zip.hash file but it did not create the file somehow. I testetd with my own zip file but I ran into the same error.
+![Screenshot](./screenshots/homework-06-n1.png)
+![Screenshot](./screenshots/homework-06-n2.png)
+
+It seems that there is an issue with the john tools..
+However I read the page through and it makes sense to me. Therefore I will continue with the next task.
 
 ## p) Voluntary: Watch and summarize: Forbes 2019: Jackpotting ATM's (Automated Teller Machines) Presented in Disobey 2019.
 I watched the presentation on youtube, very interesting!
