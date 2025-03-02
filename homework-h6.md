@@ -64,6 +64,7 @@ My keypoints from the presentation are
 
 
 ## References
+Task x) https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003
 Task a) https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 Task b) https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
 task p) https://www.youtube.com/watch?v=ThPJrPf7O2s
