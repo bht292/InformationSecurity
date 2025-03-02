@@ -27,6 +27,8 @@ In order to crack the hash the first step is to download a dictionary. I got min
 This is used to have a great deal of weak strings.
 
 Afterwards I proceeded with hashcat:
+I used the command hashcat -m 0 'hash' rockyou.txt -o solved
+hashcat calls the crack programm, -m parameter and the 0 value stands for type of the hash, which is the number from 'hashid' or 'hashcat --example-hashes'. rockyou is the file with the strings and the -o solved is used to save the solution as plain text to a new file "solved" in working directory
 ![Screenshot](./screenshots/homework-06-b1.png)
 ![Screenshot](./screenshots/homework-06-b2.png)
 ![Screenshot](./screenshots/homework-06-b3.png)
