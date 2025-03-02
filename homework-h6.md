@@ -1,4 +1,21 @@
 # h6 February2025!
+## One-way functions
+One-way functions are an important idea in public-key cryptography. They are easy to do in one direction but very hard to reverse. 
+For example, breaking a plate into pieces is easy, but putting it back together is nearly impossible.
+
+However, regular one-way functions aren’t useful for encryption because no one would be able to reverse them to read a message. Instead, cryptography uses special one-way functions with a secret trick (or "trapdoor") that makes reversing them easy if you know the secret. A good example is taking apart a watch. It’s hard to put it back together unless you have the assembly instructions.
+
+These trapdoor functions make encryption and decryption possible in public-key cryptography.
+
+## One-way hash functions
+A one-way hash function is an other important tool in cryptography. It takes an input, which is called a pre-image and converts it into a fixed-length output, that is called a hash value. 
+These functions are useful for verifying data without revealing the original information. 
+
+A one-way hash function is special because it’s easy to compute a hash from the input but very hard to reverse the process or find another input that gives the same hash. A good one-way hash function is also collision-free, meaning it’s difficult to find two different inputs that produce the same hash.
+
+Hash functions help ensure data integrity. For example, if you want to confirm someone has the same file as you, they can send you the hash value instead of the entire file. If the hash matches, the files are almost certainly identical. This is useful in financial transactions, preventing unauthorized changes (e.g., a $100 withdrawal turning into $1000). An other use case is the download of a software upgrade. Here the hash is provided by the vendor and it can be compared on the os.
+
+A Message Authentication Code (MAC) is a special type of hash function that uses a secret key. Only someone with the key can verify the hash, making it even more secure.
 
 ## a) Install Hashcat
 ![Screenshot](./screenshots/homework-06-a1.png)
