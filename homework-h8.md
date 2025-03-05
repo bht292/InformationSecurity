@@ -7,8 +7,6 @@
 
 ## b) Voluntary: Extras
 List and link voluntary extra tasks you have completed.
-
-### h1
 ### h2
 1. [c) Voluntary bonus](https://github.com/bht292/InformationSecurity/blob/main/homework-h2.md#attack-story---a-cybersecurity-incident-the-supply-chain-compromise)
 ### h4
@@ -21,7 +19,6 @@ List and link voluntary extra tasks you have completed.
 ### h6
 1. [n) Voluntary: Crack a zip file password](https://github.com/bht292/InformationSecurity/blob/main/homework-h6.md#n-voluntary-crack-a-zip-file-password)
 2. [p) Voluntary: Watch and summarize: Forbes 2019](https://github.com/bht292/InformationSecurity/blob/main/homework-h6.md#p-voluntary-watch-and-summarize-forbes-2019-jackpotting-atms-automated-teller-machines-presented-in-disobey-2019)
-
 ### h7
 
 ### h8
