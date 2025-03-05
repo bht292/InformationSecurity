@@ -20,6 +20,8 @@ List and link voluntary extra tasks you have completed.
 2. [r) Vouluntary bonus TLS](https://github.com/bht292/InformationSecurity/blob/main/homework-h5.md#r-voluntary-bonus-tls)
 3. [t) Voluntary bonus rot13](https://github.com/bht292/InformationSecurity/blob/main/homework-h5.md#t-voluntary-bonus-rot13)
 ### h6
+1. [n) Voluntary: Crack a zip file password](https://github.com/bht292/InformationSecurity/blob/main/homework-h6.md#n-voluntary-crack-a-zip-file-password)
+2. [p) Voluntary: Watch and summarize: Forbes 2019](https://github.com/bht292/InformationSecurity/blob/main/homework-h6.md#p-voluntary-watch-and-summarize-forbes-2019-jackpotting-atms-automated-teller-machines-presented-in-disobey-2019)
 
 ### h7
 
