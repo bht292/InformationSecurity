@@ -4,14 +4,12 @@ a) Publish a web page.
 Show that you can make headings (h1 #, h2 ##...), 
 # homework heading
 ## second heading
-[link](http://example.com)
 ### third heading
 
 ### paragraphs
 <p> paragraphs (p, empty line)</p>, 
 
-### links
-<p>links (a http://example.com) </p>
+### links links (a http://example.com)
 [link](http://example.com)
 
 ### code style (code or pre, four spaces at start of line)
