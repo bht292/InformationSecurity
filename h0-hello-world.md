@@ -11,7 +11,7 @@ Show that you can make headings (h1 #, h2 ##...),
 
 ### links
 <p>links (a http://example.com) </p>
-[http://example.com](link)
+[link](http://example.com)
 
 ### code style (code or pre, four spaces at start of line)
 ```python
