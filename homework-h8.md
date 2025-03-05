@@ -10,13 +10,17 @@ List and link voluntary extra tasks you have completed.
 
 ### h1
 ### h2
-[c) Voluntary bonus](https://github.com/bht292/InformationSecurity/blob/main/homework-h2.md#attack-story---a-cybersecurity-incident-the-supply-chain-compromise)
+1. [c) Voluntary bonus](https://github.com/bht292/InformationSecurity/blob/main/homework-h2.md#attack-story---a-cybersecurity-incident-the-supply-chain-compromise)
 ### h3
 ### h4
 1. [m) Voluntary bonus: WebGoat: SQL Injection](https://github.com/bht292/InformationSecurity/blob/main/homework-h4.md#m-voluntary-bonus-webgoat-sql-injection)
 2. [n) Voluntary bonus: solve some Portswigger labs marked as Apprentice (easy level)](https://github.com/bht292/InformationSecurity/blob/main/homework-h4.md#n-voluntary-bonus-solve-some-portswigger-labs-marked-as-apprentice-easy-level)
 ### h5
+1. [o) Voluntary bonus](https://github.com/bht292/InformationSecurity/blob/main/homework-h5.md#o-voluntary-bonus-frequency-distribution-of-letters)
+2. [r) Vouluntary bonus TLS](https://github.com/bht292/InformationSecurity/blob/main/homework-h5.md#r-voluntary-bonus-tls)
+3. [t) Voluntary bonus rot13](https://github.com/bht292/InformationSecurity/blob/main/homework-h5.md#t-voluntary-bonus-rot13)
 ### h6
+
 ### h7
 
 ### h8
