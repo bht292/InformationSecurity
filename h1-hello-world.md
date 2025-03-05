@@ -10,7 +10,7 @@ Show that you can make headings (h1 #, h2 ##...),
 <p> paragraphs (p, empty line)</p>, 
 
 ### links
-links (a http://example.com) 
+<p>links (a http://example.com) </p>
 [link](http://example.com)
 
 ### code style (code or pre, four spaces at start of line)
