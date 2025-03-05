@@ -25,5 +25,5 @@ List and link voluntary extra tasks you have completed.
 ### h7
 
 ### h8
-1. a) Voluntary: Improved
-2. b) Voluntary: Extras
+1. [a) Voluntary: Improved](https://github.com/bht292/InformationSecurity/blob/main/homework-h8.md#a-voluntary-improved)
+2. [b) Voluntary: Extras](https://github.com/bht292/InformationSecurity/blob/main/homework-h8.md#b-voluntary-extras)
