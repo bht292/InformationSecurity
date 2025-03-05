@@ -4,6 +4,7 @@ a) Publish a web page.
 Show that you can make headings (h1 #, h2 ##...), 
 # homework heading
 ## second heading
+[link](http://example.com)
 ### third heading
 
 ### paragraphs
