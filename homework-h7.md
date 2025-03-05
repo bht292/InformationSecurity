@@ -48,9 +48,9 @@ Ross Ulbricht’s real name and e-mail were used publicly, linking him to his an
 ##### Harvard Bomb Hoax 
 A fake bomb threat was sent through Tor, but Harvard’s IT staff identified Tor use at that time. The suspect was caught.
 
+## a) Install TOR browser and access TOR network (.onion addresses)
 
 
-## 
 ## References
 Things you should know about Tor: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
 Shavers & Bair: https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0020
