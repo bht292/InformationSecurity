@@ -49,8 +49,18 @@ Ross Ulbricht’s real name and e-mail were used publicly, linking him to his an
 A fake bomb threat was sent through Tor, but Harvard’s IT staff identified Tor use at that time. The suspect was caught.
 
 ## a) Install TOR browser and access TOR network (.onion addresses)
+I downloaded the TOR browser directly from the [TOR project page](https://www.torproject.org/). Afterwards I unziped it with the tar command.
 
+![Tor](screenshots/homework-07-a4.png)
+
+![Tor](screenshots/homework-07-a5.png)
+
+The command tar -xvf tor-browser-linux-x86_64-*.tar.xz extracts the Tor Browser archive. The -x flag tells tar to extract, -v shows the files being extracted, and -f specifies the archive file. The *.tar.xz part uses a wildcard to match the archive filename. The output lists the extracted directories and files, showing the structure of the Tor Browser package.
+Btw: tar is a command-line  in Linux used to create, extrac or even  manage archive files: It is often combined with compression formats like .gz for instance.
+
+![Tor](screenshots/homework-07-a6.png)
 
 ## References
 Things you should know about Tor: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
 Shavers & Bair: https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0020
+Task a: https://www.torproject.org/
