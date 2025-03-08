@@ -60,6 +60,17 @@ Btw: tar is a command-line  in Linux used to create, extrac or even  manage arch
 
 ![Tor](screenshots/homework-07-a6.png)
 
+## b) Browse TOR network, find, take screenshots and comment
+### search engine for onion sites
+### marketplace
+### forum
+### a site for a well known organization that has a physical street address in the real world
+
+## c) Voluntary: Browse I2P network. Install necessary software.
+
+## Voluntary: Crypto hunter
+Find Bitcoin address from a darknet site. Use the public ledger to find out if money has been transferred to that address.
+
 ## References
 Things you should know about Tor: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
 Shavers & Bair: https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0020
