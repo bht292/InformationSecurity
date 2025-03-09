@@ -115,3 +115,4 @@ Unfortunately, this poor guy did not receive any bitcoins so far. Let's hope the
 Things you should know about Tor: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
 Shavers & Bair: https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0020
 Task a: https://www.torproject.org/
+Task Crypto hunter: https://www.blockchain.com/de/explore
