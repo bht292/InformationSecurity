@@ -20,6 +20,8 @@ List and link voluntary extra tasks you have completed.
 1. [n) Voluntary: Crack a zip file password](https://github.com/bht292/InformationSecurity/blob/main/homework-h6.md#n-voluntary-crack-a-zip-file-password)
 2. [p) Voluntary: Watch and summarize: Forbes 2019](https://github.com/bht292/InformationSecurity/blob/main/homework-h6.md#p-voluntary-watch-and-summarize-forbes-2019-jackpotting-atms-automated-teller-machines-presented-in-disobey-2019)
 ### h7
+1. [c) Voluntary: Browse I2P network.](https://github.com/bht292/InformationSecurity/blob/main/homework-h7.md#c-voluntary-browse-i2p-network-install-necessary-software)
+2. [e) Voluntary: Crypto hunter.](https://github.com/bht292/InformationSecurity/blob/main/homework-h7.md#voluntary-crypto-hunter)
 
 ### h8
 1. [a) Voluntary: Improved](https://github.com/bht292/InformationSecurity/blob/main/homework-h8.md#a-voluntary-improved)
