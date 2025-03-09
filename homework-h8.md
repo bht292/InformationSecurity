@@ -14,6 +14,9 @@
 * Feedback not implemented: I would have liked to summaries to be a little bit shorter since the same points could be read on the site.
 * Explenation: I understand that for the reader it is more work to read summaries, however for me the learning happens when I write more than just bullet points.
 
+### Other homework
+As for the other homework reports I got 5.0 and no improvement feedbacks as everything seemd to match the criterias.
+
 ## b) Voluntary: Extras
 List and link voluntary extra tasks you have completed.
 ### h2
