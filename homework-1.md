@@ -151,3 +151,11 @@ Penetration tests are always a good challange to see if we are secure.
 
 DreamCloud Services must focus on protecting customer data, ensuring service availability, and maintaining customer trust. 
 Continuous evaluation and adaptation to new threats will safeguard its business goals and reputation.
+
+## References
+* https://www.threatmodelingmanifesto.org/
+* https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+* https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
+* https://darknetdiaries.com/
+* https://f-droid.org/en/packages/de.danoeh.antennapod/
+* https://www.proofpoint.com/us/threat-reference/cyber-hygiene#:~:text=Cyber%20hygiene%2C%20or%20cybersecurity%20hygiene,from%20cyber%2Dattacks%20and%20theft.
