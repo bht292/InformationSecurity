@@ -61,12 +61,41 @@ Btw: tar is a command-line  in Linux used to create, extrac or even  manage arch
 ![Tor](screenshots/homework-07-a6.png)
 
 ## b) Browse TOR network, find, take screenshots and comment
+
+
 ### search engine for onion sites
+#### Ahmia
+Ahmia is a search engine for the dark web. It helps users find .onion websites without needing direct links. Unlike Google, it indexes hidden sites on the TOR network while filtering illegal content. 
+
+![Tor](screenshots/homework-07-a7.png)
+
+The image shows the Ahmia search engine homepage. At the top, a purple ".onion available" badge shows that an onion version is accessible.
+
+
 ### marketplace
+Online marketplaces exist on the TOR network, but many host illegal goods.
+![Tor](screenshots/homework-07-a8.png)
+
+For security purposes I created a fake account here with strange credentials as the website is not trusted an accessed over http. Furthermore I am in the darknet!
+![Tor](screenshots/homework-07-a9.png)
+![Tor](screenshots/homework-07-a11.png)
+
+These goods are illagel to buy but still offered. To buy goods an amount of BTC or USD has to be uploaded here:
+![Tor](screenshots/homework-07-a10.png)
+
+
 ### forum
+During my search I found a ghostForum, which caught my attention. I read it a bit through:
+![Tor](screenshots/homework-07-a12.png)
+![Tor](screenshots/homework-07-a13.png)
+
 ### a site for a well known organization that has a physical street address in the real world
+![Tor](screenshots/homework-07-a14.png)
+
+I decided to read the news a bit on BBC for this task ;-)
 
 ## c) Voluntary: Browse I2P network. Install necessary software.
+I2P (Invisible Internet Project) is an anonymous network similar to TOR. It focuses on hidden services (eepsites) instead of accessing the normal internet.
 
 ## Voluntary: Crypto hunter
 Find Bitcoin address from a darknet site. Use the public ledger to find out if money has been transferred to that address.
