@@ -6,8 +6,8 @@
 [h0](https://github.com/bht292/InformationSecurity/blob/main/h1-hello-world.md): Feedback implemented: "Could have made a code block and add an actual link to reference. Also H2 was not used"
 
 ### h1
-1. h1 Feedback implemented: first task doesnt tell if you have only looked into the manifesto or the other references aswell like podcast.
-2. h1 Feedback implemented: at what go wrong section you forgot to add the elevation of privilege part of STRIDE.
+1. [h1](http://github.com/bht292/InformationSecurity/blob/main/homework-1.md#threat-modelling) Feedback implemented: first task doesnt tell if you have only looked into the manifesto or the other references aswell like podcast.
+2. [h1](https://github.com/bht292/InformationSecurity/blob/main/homework-1.md#stride-spoofing-tampering-repudiation-information-disclosure-denial-of-service-elevation-of-privilege) Feedback implemented: at what go wrong section you forgot to add the elevation of privilege part of STRIDE.
 3. [h1](https://github.com/bht292/InformationSecurity/blob/main/homework-1.md#references) Feedback implemented: you dont have any references for your work. remember to add them using haaga-helias guidelines.
 
 ### h4
