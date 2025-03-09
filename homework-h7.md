@@ -100,6 +100,13 @@ I2P (Invisible Internet Project) is an anonymous network similar to TOR. It focu
 ## Voluntary: Crypto hunter
 Find Bitcoin address from a darknet site. Use the public ledger to find out if money has been transferred to that address.
 
+I found a guy asking for bit coins:
+![Tor](screenshots/homework-07-a15.png)
+
+Unfortunately, this poor guy did not receive any bitcoins so far. Let's hope the best in the future.
+![Tor](screenshots/homework-07-a16.png)
+
+
 ## References
 Things you should know about Tor: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
 Shavers & Bair: https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0020
