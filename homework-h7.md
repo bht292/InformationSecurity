@@ -96,6 +96,10 @@ I decided to read the news a bit on BBC for this task ;-)
 
 ## c) Voluntary: Browse I2P network. Install necessary software.
 I2P (Invisible Internet Project) is an anonymous network similar to TOR. It focuses on hidden services (eepsites) instead of accessing the normal internet.
+I installed the I2P and afterwards I browsed through it:
+![Tor](screenshots/homework-07-a17.png)
+![Tor](screenshots/homework-07-a18.png)
+![Tor](screenshots/homework-07-a19.png)
 
 ## Voluntary: Crypto hunter
 Find Bitcoin address from a darknet site. Use the public ledger to find out if money has been transferred to that address.
