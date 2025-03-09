@@ -81,6 +81,7 @@ In order to answer this question the following modells are applied:
 * Tampering: Hackers modifying project files
 * Information Disclosure: Unauthorized access to sensitive files
 * Denial of Service: Attackers overwhelming servers to disrupt service
+* Elevation of Privillege: Exploiting vulnerabilities to gain admin access
 
 #### CIA (Confidentiality, Integrity, Availability)
 * Confidentiality risk: Insider threat exposing sensitive files
