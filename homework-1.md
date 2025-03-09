@@ -8,6 +8,11 @@ The manifesto identifies threat modeling as an iterative process that evolves al
 
 It emphasizes the importance of empowering individuals to ask insightful questions, challenge assumptions, and adapt methodologies to the unique context of their projects. By fostering a culture of collaboration, critical thinking, and early engagement with security, the manifesto aims to create robust, secure systems that stand resilient against evolving threats.
 
+The basic step of threat modelling is mentioned in the [world shortest threat modeling course](https://www.youtube.com/watch?v=Yt0PhyEdZXU&list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf&index=3). It is about the for questions, which one always has to ask itself:
+1. What are we working on?
+2. What can go wrong?
+3. What are we going to do about it?
+4. Did we do a good job?
 
 ## Security Hygine
 ### What basic security practices should everyone follow?
